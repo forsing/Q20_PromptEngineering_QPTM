@@ -76,7 +76,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -295,7 +295,7 @@ T2 COLD    cos=0.899011  NEXT=(1, 13, 14, 17, 23, 25, 30)
 T3 RECENT  cos=0.898246  NEXT=(7, 9, 16, 19, 24, 28, 31)
 T4 OLD     cos=0.899599  NEXT=(7, 8, 10, 19, 22, 27, 32)
 --- glavna predikcija (QPTM mešavina) ---
-predikcija NEXT: (7, 19, 22, 24, 27, 28, 31)
+predikcija NEXT: (7, 19, x, y, z, 28, 31)
 """
 
 
